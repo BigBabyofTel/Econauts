@@ -1,0 +1,65 @@
+html{
+    font-size: 18px;
+    background-color: #01327F;
+    color: #dcdcdc;
+    box-sizing: border-box;
+    text-align: center;
+}
+.header h1,h2{
+    font-family: "Kalam";
+    text-align: center;
+}
+p{
+    font-family: "Shadows Into Light";
+    font-weight: bold;
+    text-align: center;
+}
+.nav li{
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-decoration: underline;
+    margin: 1rem; 
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #1a5b19;
+}
+.header{
+    background-image: url(./Images/mainbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #01296c;
+    height: 30rem;
+    width:auto;
+}
+.grid{
+    display: inline-flex;
+    margin: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.grid img{
+    margin: 2rem;
+    height: 20rem;
+    width: 20rem;
+}
+.grid h2{
+    text-decoration: underline;
+}
+#c{
+   width: 50rem;
+   
+}
+.box{
+    background-color:#1a5b19;
+    border: 1px solid yellow;
+    margin: 1rem;
+    display: flex; 
+    width: 40rem;
+}
+.header h1,h2,p{
+    padding: 1rem;
+}
